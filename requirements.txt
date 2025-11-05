@@ -1,3 +1,5 @@
 streamlit
 streamlit-extras
 streamlit-option-menu
+nbformat
+nbconvert
