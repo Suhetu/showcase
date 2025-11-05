@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_extras.add_vertical_space import add_vertical_space
 from streamlit_option_menu import option_menu
 import nbformat
 from nbconvert import HTMLExporter
@@ -22,7 +21,8 @@ if selected == 'Home':
 
     st.subheader(':rainbow[Thank you] for taking time to visit! You can browse a few of my works via the tab over 👈🏻')
 
-    add_vertical_space(3)
+    st.write("")
+    st.write("")
 
     st.image("https://files.realpython.com/media/Documenting-Python-Projects-With-Sphinx-and-Read-The-Docs_Watermarked.483b54b59fe0.jpg", caption="Python is FUN")
 
